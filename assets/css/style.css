@@ -94,8 +94,13 @@ header {
     font-size: 26;
 }
 
-/menuitem span {
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
+}
+
+.hvr-sweep-tp-bottom::before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
